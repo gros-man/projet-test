@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+<div class="col-12">
+	<h1>Django Reinhardt</h1>
+	<hr>
+	<div class="row">
+		<div class="col-md-9">
+			<p class="lead">
+				Jean Reinhardt, plus connu sous le nom de Django Reinhardt, est un guitariste de jazz français né le 23 janvier 1910 à Liberchies — aujourd'hui une section de la commune de Pont-à-Celles — dans la région de Charleroi en Belgique1,2 et mort le 16 mai 1953 à Samois-sur-Seine. Son style de jeu et de composition a été suivi d'adeptes, donnant naissance à un style de jazz à part entière, le jazz manouche.
+			</p>
+			<p>
+				Issu d’une famille sinténote 1 et communément appelée en France « manouche », il est encore aujourd’hui un des guitaristes les plus respectés et influents de l’histoire du jazz. Grièvement blessé dans l'incendie de sa roulotte, il garde toute sa vie les séquelles de ses brûlures à la main gauche qui l'obligent à trouver une nouvelle technique et à jouer dans un style si particulier que ses adeptes des générations suivantes poussent l'idolâtrie jusqu'à s'entraver les doigts pour reproduire son infirmité et sa technique3.
+				Plusieurs de ses descendants sont devenus guitaristes : Lousson Reinhardt (en), son fils aîné issu d'un premier mariage (1929-1992), Babik Reinhardt, son second fils (1944-2001), et David Reinhardt, son petit-fils (fils de Babik), ainsi que Levis Adel-Baumgartner descendant de Lousson.
+			</p>
+		</div>
+		<div class="col-md-3">
+			<img src="{% static 'img/django.jpg' %}" class="img-fluid">
+		</div>
+	</div>
+</div>
+{% endblock %}
